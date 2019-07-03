@@ -12,7 +12,7 @@ end
 
 def valid_move?(board, index)
   taken = position_taken?(board, index)
-  if taken?
+  if taken
     false
   else
     if index.between?(0, 8)
