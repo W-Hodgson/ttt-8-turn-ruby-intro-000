@@ -41,7 +41,6 @@ end
 
 def position_taken?(board, index)
   if board[index] == nil || board[index] == " " || board[index] == ""
-    puts 'Invalid Move'
     false
   else
     true
