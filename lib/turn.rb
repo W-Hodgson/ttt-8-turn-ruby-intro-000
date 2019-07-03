@@ -17,6 +17,8 @@ def move(board, index, token="X")
   valid = valid_move?(board, index)
   if valid
     board[index] = token
+  else
+    turn(board)
   end
 end
 
